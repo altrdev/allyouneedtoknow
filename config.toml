@@ -1,0 +1,34 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "All you need to know"
+
+theme = "hugrid"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-XXXXXXXX-Y"
+
+contentdir = "content"
+datadir = "data"
+layoutdir = "layouts"
+publishdir = "public"
+
+
+[params]
+    # Meta
+    title = "Cerchi una nuova avventura?"
+    subtitle = "Scopri i nostri consigli di viaggio"
+    author = "co-autori Alessandro Travi e Denise Caggio"
+    description = "Consigli di viaggio"
+    keywords = "consigli di viaggio"
+
+    # Body background color
+    bodybgcolor = "#f9f9f9"
+
+    # Preview container button text
+    buttontext = "Scopri"
+
+    # Footer text
+    footertext = "Made with ♥ by [Alessandro](https://www.instagram.com/alessandro.travi/) and [Denise](https://www.instagram.com/nonblonde.d/)"
+
+    # add extra-css
+    custom_css = ['css/custom.css']
