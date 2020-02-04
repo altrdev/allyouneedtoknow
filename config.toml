@@ -1,11 +1,11 @@
-baseURL = "http://example.org/"
+baseURL = "https://allyouneedtoknow.tips/"
 languageCode = "en-us"
 title = "All you need to know"
 
 theme = "hugrid"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-XXXXXXXX-Y"
+googleAnalytics = "UA-156024128-1"
 
 contentdir = "content"
 datadir = "data"
