@@ -10,11 +10,12 @@
 				{{ partial "header.html" . }}
 			<div class="main">
 				<ul id="og-grid" class="og-grid">
+					{{ $baseUrl := .Site.BaseURL }}
 					{{ $data := index .Site.Data .Site.Language.Lang }}
 					{{ range $item := $data.items.items }}
 					<li>
-						<a href="{{$item.url}}" data-largesrc="{{$item.image}}" data-title="{{$item.title}}" data-description="{{$item.description }}" data-buttontext="{{$item.buttontext}}">
-							<img src="{{$item.thumb}}" alt="{{$item.alt}}"/>
+						<a href="{{$item.url}}" data-largesrc="{{$baseUrl}}{{$item.image}}" data-title="{{$item.title}}" data-description="{{$item.description }}" data-buttontext="{{$item.buttontext}}">
+							<img src="{{$baseUrl}}{{$item.thumb}}" alt="{{$item.alt}}"/>
 						</a>
 					</li>
 					{{ end }}
