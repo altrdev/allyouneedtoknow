@@ -1,0 +1,23 @@
+[[items]]
+title = "Nepal"
+image = "images/full/nepal.jpg"
+thumb = "images/thumbs/nepal.jpg"
+alt = "Consigli di viaggio Nepal"
+description = "Consigli di viaggio per un'avventura in Nepal. Da Kathmandu al trekking sull'Annapurna"
+url = "https://nepal.allyouneedtoknow.tips"
+
+[[items]]
+title = "Como lake"
+image = "images/full/comolake.png"
+thumb = "images/thumbs/comolake.png"
+alt = "Consigli di viaggio per una vacanza sul Lago di Como"
+description = "Consigli di viaggio per una vacanza sul Lago di Como. Tutto quello che devi sapere per un trekking sulle alpi e molto altro."
+url = "https://comolake.allyouneedtoknow.tips"
+
+[[items]]
+title = "Valtellina"
+image = "images/full/valtellina.png"
+thumb = "images/thumbs/valtellina.png"
+alt = "Consigli di viaggio per una vacanza in Valtellina"
+description = "[In arrivo] Consigli di viaggio per una vacanza in Valtellina. Tutto quello che devi sapere per un trekking sulle alpi e molto altro."
+url = "#"

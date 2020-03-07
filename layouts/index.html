@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<html lang="{{ .Language.Lang }}">
 	<head>
     <script data-ad-client="ca-pub-1348790363502354" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	{{ partial "head.html" . }}
@@ -10,10 +10,11 @@
 				{{ partial "header.html" . }}
 			<div class="main">
 				<ul id="og-grid" class="og-grid">
-					{{ range .Site.Data.items.items }}
+					{{ $data := index .Site.Data .Site.Language.Lang }}
+					{{ range $item := $data.items.items }}
 					<li>
-						<a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}" data-description="{{.description }}" data-buttontext="{{.buttontext}}">
-							<img src="{{.thumb}}" alt="{{.alt}}"/>
+						<a href="{{$item.url}}" data-largesrc="{{$item.image}}" data-title="{{$item.title}}" data-description="{{$item.description }}" data-buttontext="{{$item.buttontext}}">
+							<img src="{{$item.thumb}}" alt="{{$item.alt}}"/>
 						</a>
 					</li>
 					{{ end }}

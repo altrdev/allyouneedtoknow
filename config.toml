@@ -1,22 +1,24 @@
 baseURL = "https://allyouneedtoknow.tips/"
-languageCode = "en-us"
-title = "All you need to know"
-
 theme = "hugrid"
-
+defaultContentLanguage = "en"
+languageCode = "en-US"
+title = "All you need to know"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-156024128-1"
+enableRobotsTXT = true
 
-contentdir = "content"
-datadir = "data"
-layoutdir = "layouts"
-publishdir = "public"
+[languages.en]
+  weight = 0
+  languageName = "English"
+  contentDir = "content/en"
 
+[languages.it]
+  weight = 10
+  languageName = "Italian"
+  contentDir = "content/it"
 
 [params]
     # Meta
-    title = "Cerchi una nuova avventura?"
-    subtitle = "Scopri i nostri consigli di viaggio"
     author = "co-autori Alessandro Travi e Denise Caggio"
     description = "Consigli di viaggio"
     keywords = "consigli di viaggio"
@@ -24,11 +26,10 @@ publishdir = "public"
     # Body background color
     bodybgcolor = "#f9f9f9"
 
-    # Preview container button text
-    buttontext = "Scopri"
-
     # Footer text
     footertext = "Made with ♥ by [Alessandro](https://www.instagram.com/alessandro.travi/) and [Denise](https://www.instagram.com/nonblonde.d/)"
 
     # add extra-css
     custom_css = ['css/custom.css']
+    # add extra-css
+    custom_js = ['js/custom.js']

@@ -1,0 +1,23 @@
+[[items]]
+title = "Nepal"
+image = "images/full/nepal.jpg"
+thumb = "images/thumbs/nepal.jpg"
+alt = "Travel tips Nepal"
+description = "Travel tips on things to do in Nepal and places to visit. All you need to know to trek the Himalayas, backpacking in Nepal and more."
+url = "https://nepal.allyouneedtoknow.tips"
+
+[[items]]
+title = "Como lake"
+image = "images/full/comolake.png"
+thumb = "images/thumbs/comolake.png"
+alt = "Travel tips Como lake"
+description = "Travel tips on things to do in Como Lake and places to visit. All you need to know to trek the alps around Como Lake and more."
+url = "https://comolake.allyouneedtoknow.tips"
+
+[[items]]
+title = "Valtellina"
+image = "images/full/valtellina.png"
+thumb = "images/thumbs/valtellina.png"
+alt = "Travel tips Valtellina"
+description = "[Coming soon] Travel tips on things to do in Valtellina and places to visit. All you need to know to trek the alps around Valtellina and more."
+url = "#"
